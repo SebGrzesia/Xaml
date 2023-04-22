@@ -1,0 +1,13 @@
+{
+  "runtimeOptions": {
+    "tfm": "net7.0",
+    "additionalProbingPaths": [
+      "C:\\Users\\dicou\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\dicou\\.nuget\\packages",
+      "D:\\VS community\\Shared\\NuGetPackages"
+    ],
+    "configProperties": {
+      "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
+    }
+  }
+}

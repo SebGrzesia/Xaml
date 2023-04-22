@@ -1,0 +1,72 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>True</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="FolderClose.png" />
+    <None Remove="Icons\avi.png" />
+    <None Remove="Icons\bmp.png" />
+    <None Remove="Icons\css.png" />
+    <None Remove="Icons\dll.png" />
+    <None Remove="Icons\doc.png" />
+    <None Remove="Icons\EN.png" />
+    <None Remove="Icons\error.png" />
+    <None Remove="Icons\FolderClose.png" />
+    <None Remove="Icons\gif.png" />
+    <None Remove="Icons\html.png" />
+    <None Remove="Icons\jpg.png" />
+    <None Remove="Icons\js.png" />
+    <None Remove="Icons\mp3.png" />
+    <None Remove="Icons\pdf.png" />
+    <None Remove="Icons\php.png" />
+    <None Remove="Icons\PL.png" />
+    <None Remove="Icons\png.png" />
+    <None Remove="Icons\ppt.png" />
+    <None Remove="Icons\svg.png" />
+    <None Remove="Icons\txt.png" />
+    <None Remove="Icons\ui.png" />
+    <None Remove="Icons\xls.png" />
+    <None Remove="Icons\xml.png" />
+    <None Remove="Icons\zip.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommonServiceLocator" Version="2.0.7" />
+    <PackageReference Include="MvvmLight" Version="5.4.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="FolderClose.png" />
+    <Resource Include="Icons\avi.png" />
+    <Resource Include="Icons\bmp.png" />
+    <Resource Include="Icons\css.png" />
+    <Resource Include="Icons\dll.png" />
+    <Resource Include="Icons\doc.png" />
+    <Resource Include="Icons\EN.png" />
+    <Resource Include="Icons\error.png" />
+    <Resource Include="Icons\FolderClose.png" />
+    <Resource Include="Icons\gif.png" />
+    <Resource Include="Icons\html.png" />
+    <Resource Include="Icons\jpg.png" />
+    <Resource Include="Icons\js.png" />
+    <Resource Include="Icons\mp3.png" />
+    <Resource Include="Icons\pdf.png" />
+    <Resource Include="Icons\php.png" />
+    <Resource Include="Icons\PL.png" />
+    <Resource Include="Icons\png.png" />
+    <Resource Include="Icons\ppt.png" />
+    <Resource Include="Icons\svg.png" />
+    <Resource Include="Icons\txt.png" />
+    <Resource Include="Icons\ui.png" />
+    <Resource Include="Icons\xls.png" />
+    <Resource Include="Icons\xml.png" />
+    <Resource Include="Icons\zip.png" />
+  </ItemGroup>
+
+</Project>
